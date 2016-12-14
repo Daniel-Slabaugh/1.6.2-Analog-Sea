@@ -1,0 +1,71 @@
+
+body {
+	background-color: blue;
+}
+
+.logo {
+	/*ask about this in mentor session*/
+	display: block;
+	height: 35px;
+	margin: 15px auto;
+}
+
+.login {
+	width: 320px;
+	margin: 0px auto;
+	background-color: white;
+	padding: 40px;
+	border: 1px white solid;
+	border-radius: 3px;
+}
+
+.login fieldset {
+  padding-left: 0;
+  border: none;
+}
+
+.login h2, a {
+	text-align: center;
+}
+
+.login label {
+	display: block;
+	margin: 15px 0px;
+}
+
+.login input, button {
+	padding: 15px;
+	border: solid #c9c8c8 2px;
+	border-radius: 3px;
+  	width: 286px;
+  	font-size: 15px;
+}
+
+.login button {
+  	cursor: pointer;
+  	background-color: green;
+  	border-color:green;
+  	/*overrides command in input/button*/
+  	width: 320px;
+  	color:white;
+}
+
+.login button:hover {
+	background-color: #006400;
+}
+
+.forgot-password {
+	margin: 10px auto;
+	color: grey;
+	display: block;
+}
+
+.account {
+	text-align: center;
+	color: white;
+}
+
+.account-link {
+	color: white;
+
+}
